@@ -5,7 +5,9 @@ import Codematics from './assets/svg/skills/codelog.jpeg';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/aust.png';
- 
+import comsatslogo from './assets/education_logo/comsatslogo.jpeg'
+import comsatslogofix from './assets/education_logo/comsatslogofix.jpeg'
+
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/truck-logistic.jpg';
@@ -42,7 +44,7 @@ import jwt from '../src/assets/svg/skills/jwt.png'
 import express from '../src/assets/svg/skills/express.png'
 import postmen from '../src/assets/svg/skills/postmen.png'
 import Restapis from '../src/assets/svg/skills/restapis.png'
- 
+
 //skills section
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -109,12 +111,12 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "Bootstrap",
-   "React",
+  "React",
   "Tailwind",
   "MaterialUI"
 ];
 
- //Experience
+//Experience
 export const experiences = [
   {
     id: 0,
@@ -129,9 +131,6 @@ export const experiences = [
       "MongoDB",
       "REST APIs",
       "JWT",
-      "React.js",
-      "Tailwind CSS",
-      "Material UI",
     ],
   },
   {
@@ -147,103 +146,60 @@ export const experiences = [
       "Bootstrap",
       "JavaScript",
       "React.js",
-      "Tailwind"
+      "Tailwind",
+      "Node.Js",
+      "Express.Js",
+      "Mongo DB"
     ],
   },
 ];
 
-  // Education
-  export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "Abbottabad University Of Science And Technology",
-      date: "Sept 2020 - Aug 2024",
-      desc: "I completed my Bachelor's degree in Computer Science (BSCS) from AUST, Abbottabad. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at AUST allowed me to work on projects that srclied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science In Computer Science - (BSCS)",
-    }  
-  ];
-  // Projects
-  export const projects = [
-    {
-      id: 0,
-      title: "Trukza - Logistics Platform",
-      description:
-        "Building a logistics platform in Next.js that connects truck drivers with customers. Features include driver profiles, a shipping cost calculator, real-time shipment tracking, and a mobile-responsive, scalable interface for efficient goods transport.",
-      image: githubdetLogo,
-      tags: ["HTML", "Tailwind Css", "JavaScript", "Next Js", "API"],
-      github: "https://github.com/ismail-90",
-      webapp: "https://trukza.com/",
-    },
-    {
-      id: 1,
-      title: "Real-Estate Project",
-      description:
-        "Built a feature-rich real estate web srclication with two main interfaces: an Admin Panel for managing users and listings, and a User Panel that enables users to create property ads, manage wishlists, and post properties for auction. Implemented dynamic bidding functionality, allowing users to participate in live property auctions. Integrated property creation, real-time updates, and listing management using React.js, Zustand/Redux Toolkit for state management, and Firebase/srcwrite for backend services. Focused on delivering a secure, responsive, and scalable user experience with interactive map views and advanced filtering.",
-      image: csprepLogo,
-      tags: ["React JS", "Saas", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/ismail-90",
-      webapp: "https://elaborate-sunshine-816064.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Divine Management Sysytem",
-      description:
-        "Divine is a custom-built platform aimed at enhancing care coordination within the disability support sector. The system streamlines scheduling, secures patient data, and supports role-based functionalities for Owners, Managers, and Employees with tailored operational capabilities. I led the design-to-codetransformation, creating a fully responsive, real-time interface to ensure scalability, usability, and performance.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/ismail-90",
-      webapp: "https://divinesoftwares.com.au/",
-    },
-    {
-      id: 3,
-      title: "Gamerz Host",
-      description:
-        "Developed for a German client, this platform allows users to host game servers, buy games, and select from various hosting plans. Delivered a responsive, secure, and performance-optimized user experience tailored for gamers.",
-      image: gamerzhost,
-      tags: ["HTML", "CSS", "JavaScript", "BootStrap"],
-      github: "https://github.com/ismail-90",
-      webapp: "https://gamerzhost.com/",
-    },
-     {
-      id: 4,
-      title: "E-Commurz System",
-      description:
-        "Developed a responsive e-commerce website with features like product listing, cart, and secure checkout using Next.js and Tailwind CSS. Focused on delivering a smooth user experience with clean UI and efficient state management.",
-      image: ECommurz,
-      tags: ["Next.js", "Tailwind Css", "Javascript", "Api" ],
-      github: "https://github.com/ismail-90",
-      webapp: "https://ecommurz.netlify.app/",
-    },
-       {
-      id: 5,
-      title: "ACE Authentics – Sports Collectibles",
-      description:
-        "Developed a responsive e-commerce platform for selling authenticated sports memorabilia. Focused on clean UI, seamless shopping experience, and product showcase using modern frontend technologies.",
-      image: aceAuthentics,
-      tags: ["HTML", "CSS", "JavaScript", "Php", "mysql" ],
-      github: "https://github.com/ismail-90",
-      webapp: "https://aceauthentics.com/",
-    },
-{
-      id: 6,
-      title: "Centerice Coa",
-      description:
-        "Developed a responsive Collectibles website for Centerice Coa, showcasing authenticated sports memorabilia. Focused on clean UI, seamless shopping experience, and product showcase using modern frontend technologies.",
-      image: aceAuthentics,
-      tags: ["HTML", "CSS", "JavaScript", "BootStrap"],
-      github: "https://github.com/ismail-90",
-      webapp: "https://centericecoa.com/",
-    },
+// Education
+export const education = [
   {
-      id: 7,
-      title: "Future Skillage Institute",
-      description:
-        "Developed a responsive website using HTML, CSS, JavaScript, and PHP for an educational institute to showcase courses, manage student inquiries, and provide institute information. Focused on clean UI, smooth navigation, and dynamic form handling for a better user experience.",
-      image: fsi,
-      tags: ["HTML", "CSS", "JavaScript", "Php", "mysql" ],
-      github: "https://github.com/ismail-90",
-      webapp: "https://futureskillage.com/",
-    },
+    id: 0,
+    img: comsatslogofix,
+    school: "Comsats University Islamabad Abbottabad Campus",
+    date: "Sept 2020 – July 2024",
+    desc: "I completed my Bachelor's degree in Software Engineering from COMSATS University Islamabad, Abbottabad Campus. During my four years of study, I developed a strong foundation in programming, data structures, algorithms, software design, and full-stack web development. I also worked on several academic and personal projects, applying theoretical knowledge to solve real-world problems, which helped strengthen both my technical and problem-solving skills.",
+    degree: "Bachelor of Science in Software Engineering – (BSSE)",
 
-  ];
+  }
+];
+// Projects
+export const projects = [
+  {
+    id: 0,
+    title: "Trukza - Logistics Platform",
+    description:
+      "Building a logistics platform in Next.js that connects truck drivers with customers. Features include driver profiles, a shipping cost calculator, real-time shipment tracking, and a mobile-responsive, scalable interface for efficient goods transport.",
+    image: githubdetLogo,
+    tags: ["Node Js" , "Express Js" , "Mongo DB"],
+    github: "https://github.com/M-Haseeb138",
+    webapp: "https://trukza.com/",
+  },
+  {
+    id: 1,
+    title: "Real-Estate Project",
+    description:
+      "Built a feature-rich real estate web srclication with two main interfaces: an Admin Panel for managing users and listings, and a User Panel that enables users to create property ads, manage wishlists, and post properties for auction. Implemented dynamic bidding functionality, allowing users to participate in live property auctions. Integrated property creation, real-time updates, and listing management using React.js, Zustand/Redux Toolkit for state management, and Firebase/srcwrite for backend services. Focused on delivering a secure, responsive, and scalable user experience with interactive map views and advanced filtering.",
+    image: csprepLogo,
+    tags: ["Node Js" , "Express Js" , "Mongo DB"],
+    github: "https://github.com/M-Haseeb138",
+    webapp: "https://elaborate-sunshine-816064.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Divine Management Sysytem",
+    description:
+      "Divine is a custom-built platform aimed at enhancing care coordination within the disability support sector. The system streamlines scheduling, secures patient data, and supports role-based functionalities for Owners, Managers, and Employees with tailored operational capabilities. I led the design-to-codetransformation, creating a fully responsive, real-time interface to ensure scalability, usability, and performance.",
+    image: movierecLogo,
+    tags: ["Node Js" , "Express Js" , "Mongo DB"],
+    github: "https://github.com/M-Haseeb138",
+    webapp: "https://divinesoftwares.com.au/",
+  },
+
+
+
+
+];
